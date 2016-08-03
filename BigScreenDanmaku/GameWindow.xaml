@@ -1,0 +1,10 @@
+﻿<Window x:Class="BigScreenDanmaku.GameWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="GameWindow" Height="700" Width="600">
+    <Grid>
+        <TextBox x:Name="TextBox_log" Margin="81,90,94,10" TextWrapping="Wrap" FontSize="36"/>
+        <Label Content="中奖弹幕为：" HorizontalAlignment="Left" Margin="164,10,0,0" VerticalAlignment="Top" Height="75" Width="289" FontSize="48" />
+
+    </Grid>
+</Window>

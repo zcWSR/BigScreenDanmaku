@@ -1,0 +1,7 @@
+﻿<Window x:Class="BigScreenDanmaku.DanmakuWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="DanmakuWindow"  WindowStyle="None" Background="{x:Null}" ResizeMode="NoResize" WindowState="Maximized" AllowsTransparency="True" Topmost="True" 
+        Deactivated="Window_Deactivated" ShowInTaskbar="False">
+    <Canvas x:Name="danmakuRender" Background="{x:Null}"></Canvas>
+</Window>
